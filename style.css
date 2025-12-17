@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Estilo del contenedor de navegación */
+nav {
+    background-color: #5a4f4f;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo de los enlaces <a> */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el ratón (hover) */
+nav a:hover {
+    background-color: #575757;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.carta {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;  
+    transition: transform 0.2s;
+    overflow: hidden;
+    
+}
+
+.carta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.carta img {
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Contenedor principal para centrar la info */
+.detalle-principal {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del título principal */
+#nombre_raza {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f1c40f; /* Un toque de color */
+    display: inline-block;
+    width: 100%;
+}
+
+/* Estilo para la imagen (la que recibes del JSON) */
+#imagen-raza {
+    display: block;
+    margin: 0 auto 30px;
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover; /* Evita que la foto se estire feo */
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Estilo para la lista de características */
+#lista-caracteristicas {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide las características en dos columnas */
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#lista-caracteristicas li {
+    background: #f8f9fa;
+    padding: 12px;
+    border-left: 5px solid #f1c40f;
+    border-radius: 5px;
+}
+
+/* Estilo para el párrafo de cuidados */
+#cuidado-texto {
+    line-height: 1.8;
+    color: #444;
+    font-size: 1.1rem;
+    background: #fffdf0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px dashed #f1c40f;
+}

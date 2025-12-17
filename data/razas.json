@@ -1,0 +1,26 @@
+[
+    {
+        "id": "persa",
+        "nombre": "Gato Persa",
+        "imagen": "img/persa.jpg",
+        "origen": "Persia (Irán)",
+        "caracter": "Tranquilo, cariñoso y poco vocal.",
+        "pelaje": "Largo y denso; requiere cepillado diario.",
+        "vida": "10 a 15 años",
+        "peso": "3.5 a 5.5 kg",
+        "cuidado": "El Gato Persa necesita una rutina de higiene estricta debido a su pelaje largo. Es fundamental el cepillado diario para evitar nudos y bolas de pelo. Sus ojos, debido a su estructura facial, requieren limpieza regular para evitar manchas y acumulación de lágrimas.",
+        "salud": "Son propensos a ciertos problemas de salud relacionados con su morfología, como dificultades respiratorias (debido a su nariz chata) y problemas renales. Es importante realizar revisiones veterinarias periódicas."
+    },
+    {
+        "id": "siames",
+        "nombre": "Gato Siamés",
+        "imagen": "img/siames.jpg",
+        "origen": "Tailandia",
+        "caracter": "Extrovertido, social y extremadamente vocal.",
+        "pelaje": "Corto, fino y fácil de mantener.",
+        "vida": "12 a 20 años",
+        "peso": "2.5 a 5.0 kg",
+        "cuidado": "Requiere atención constante debido a su naturaleza social. Su pelaje es de bajo mantenimiento, pero disfrutan del cepillado. Son sensibles a los cambios de temperatura.",
+        "salud": "Tienen predisposición a la amiloidosis hepática y ciertos tipos de cáncer. Suelen tener una larga esperanza de vida con cuidados adecuados."
+    }
+]
